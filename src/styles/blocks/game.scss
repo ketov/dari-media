@@ -1,0 +1,72 @@
+.game{
+    padding: 46px 0 0 0;
+    .info{
+        float: left;
+        margin: 19px 3% 0 0;
+        width: 62%;
+        .row{
+            margin: 29px 0 0 0;
+            .buy{
+                display: table;
+                float: left;
+            }
+            .video{
+                color: #fff;
+                cursor: pointer;
+                float: left;
+                font-size: 130%;
+                line-height: 150%;
+                margin: 4px 0 0 28px;
+                padding: 0 0 0 77px;
+                position: relative;
+                &:hover{
+                    color: #ffd571;
+                }
+                &:hover .img{
+                    border: 2px solid #ffd571;
+                    &:before{
+                        border-left: 13px solid #ffd571;
+                    }
+                }
+                .img{
+                    border: 2px solid #fff;
+                    border-radius: 50px;
+                    height: 53px;
+                    left: 0;
+                    position: absolute;
+                    top: 2px;
+                    width: 53px;
+                    &:before{
+                        border: 7px solid transparent;
+                        border-left: 13px solid #fff;
+                        content: '';
+                        left: 23px;
+                        position: absolute;
+                        top: 19px;
+                    }
+                }
+            }
+            .price{
+                background: #ffd571;
+                border-radius: 14px;
+                float: left;
+                margin: 6px 0 0 31px;
+                padding: 11px 55px 10px 21px;
+                position: relative;
+                .number{
+                    font-family: pfDinDisplayProBlack;
+                    font-size: 230%;
+                }
+                .text{
+                    font-size: 95%;
+                    position: absolute;
+                    right: 21px;
+                    top: 12px;
+                }
+            }
+        }
+    }
+    p{
+        max-width: 600px;
+    }
+}

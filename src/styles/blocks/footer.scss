@@ -1,0 +1,49 @@
+footer{
+    padding-bottom: 38px;
+    position: relative;
+    top: 41px;
+    .social{
+        float: left;
+        width: 25%;
+        a{
+            border-bottom: 1px solid #fff;
+            color: #fff;
+            padding-bottom: 3px;
+            text-decoration: none;
+            transition: 0.2s;
+            &:hover{
+                border-bottom: 1px solid #ffd571;
+                color: #ffd571;
+            }
+            &:first-child{
+                margin-right: 13%;
+            }
+        }
+    }
+    .mail{
+        float: left;
+        text-align: center;
+        width: 50%;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    .delivery-payment{
+        float: left;
+        text-align: right;
+        width: 25%;
+        &:hover{
+            span{
+                border-bottom: 1px solid #ffd571;
+                color: #ffd571;
+            }
+        }
+        span{
+            border-bottom: 1px solid #fff;
+            cursor: pointer;
+            padding-bottom: 3px;
+            transition: 0.2s;
+        }
+    }
+}
