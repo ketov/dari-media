@@ -31,6 +31,7 @@ import "./main";
 import "./blocks/index-slider";
 import "./blocks/projects-slider";
 import "./blocks/popup-buy";
+import "./blocks/popup-delivery-payment";
 
 import "./pages/about-company";
 import "./pages/contacts";
