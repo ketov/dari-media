@@ -30,6 +30,7 @@ import "script!./libs/jquery.simple-scroll-follow.min.js";
 import "./main";
 import "./blocks/index-slider";
 import "./blocks/projects-slider";
+import "./blocks/popup-buy";
 
 import "./pages/about-company";
 import "./pages/contacts";

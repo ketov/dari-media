@@ -12,7 +12,24 @@
     <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
   </head>
   <body>
-    <!--img(src="assets/img/cover-template.png" style="position: absolute; top: 0; opacity: 0.5; left: 121px; z-index: -1;") -->
+    <!--img(src="assets/img/template-popup-buy.png" style="position: absolute; top: -105px; opacity: 0.5; left: 121px; z-index: 0;")-->
+    <form class="popup-buy">
+      <div id="close-popup-buy">
+        <div class="close-popup-buy__line close-popup-buy__line--1"></div>
+        <div class="close-popup-buy__line close-popup-buy__line--2"></div>
+      </div>
+      <h3>Оформление заказа</h3>
+      <label for="buy-input-games">Количество игр</label>
+      <input type="text" id="buy-input-games" placeholder="1">
+      <label for="buy-input-name">ФИО</label>
+      <input type="text" id="buy-input-name" placeholder="Константинов Константин Константинович">
+      <label for="buy-input-phone">Номер телефона</label>
+      <input type="text" id="buy-input-phone" placeholder="+8 800 555-35-35">
+      <label for="buy-input-email">Адрес электронной почты</label>
+      <input type="text" id="buy-input-email" placeholder="inbox@gmail.com">
+      <button>Оформить заказ</button>
+    </form>
+    <div id="black-bg"></div>
     <header>
       <div class="wrapper">
         <div class="logo-container"><a class="logo" href="index.html"> <img src="assets/img/logo.png" alt="логотип"></a></div>

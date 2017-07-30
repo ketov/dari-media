@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ПЛАС-ТЕК | Главная</title>
+    <title>DARI MEDIA | Главная</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta charset="UTF-8">
@@ -10,9 +10,26 @@
     <meta content="width" name="MobileOptimized">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;amp;subset=cyrillic-ext">
   </head>
-  <body> 
+  <body>
+    <!--img(src="assets/img/template-popup-buy.png" style="position: absolute; top: -105px; opacity: 0.5; left: 121px; z-index: 0;")-->
+    <form class="popup-buy">
+      <div id="close-popup-buy">
+        <div class="close-popup-buy__line close-popup-buy__line--1"></div>
+        <div class="close-popup-buy__line close-popup-buy__line--2"></div>
+      </div>
+      <h3>Оформление заказа</h3>
+      <label for="buy-input-games">Количество игр</label>
+      <input type="text" id="buy-input-games" placeholder="1">
+      <label for="buy-input-name">ФИО</label>
+      <input type="text" id="buy-input-name" placeholder="Константинов Константин Константинович">
+      <label for="buy-input-phone">Номер телефона</label>
+      <input type="text" id="buy-input-phone" placeholder="+8 800 555-35-35">
+      <label for="buy-input-email">Адрес электронной почты</label>
+      <input type="text" id="buy-input-email" placeholder="inbox@gmail.com">
+      <button>Оформить заказ</button>
+    </form>
+    <div id="black-bg"></div>
     <header>
       <div class="wrapper">
         <div class="logo-container"><a class="logo" href="index.html"> <img src="assets/img/logo.png" alt="логотип"></a></div>
@@ -23,6 +40,32 @@
         <div class="clear"></div>
       </div>
     </header>
+    <article class="game wrapper">
+      <section class="info">
+        <h1>«Зайцы и волки» — увлекательная игра для всей семьи! :)</h1>
+        <p>Почувствуйте себя храбрым зайцем, спасающимся от&nbsp;лап страшного волка! Вы же не&nbsp;хотите стать обедом для волчка? Тогда спасайтесь скорее: в&nbsp;живых останется только один, самый смелый и&nbsp;отважный, заяц!</p>
+        <div class="row">
+          <button class="buy">Купить сейчас</button>
+          <div class="video">
+            <div class="img"></div>
+            <div class="text">Посмотреть подробный<br>видео обзор игры</div>
+          </div>
+          <div class="price">
+            <div class="number">300</div>
+            <div class="text">руб.</div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </section>
+      <section class="image"><img src="assets/img/play.png" alt="изображение игры"></section>
+      <div class="clear"></div>
+    </article>
+    <footer class="wrapper">
+      <div class="social"><a href="https://instagram.com" target="_blank">Instagram</a><a href="https://vk.com" target="_blank">VK</a></div>
+      <div class="mail"><span>Пишите нам — </span><a href="mailto:mail@gmail.com">mail@gmail.com</a></div>
+      <div class="delivery-payment"> <span>Информация о доставке и оплате</span></div>
+      <div class="clear"></div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="assets/js/app.min.js"></script>

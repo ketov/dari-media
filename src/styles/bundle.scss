@@ -13,9 +13,11 @@
 //@import '_elements.scss';
 
 // Блоки
+@import 'blocks/black-bg.scss';
 @import 'blocks/footer.scss';
 @import 'blocks/game.scss';
 @import 'blocks/header.scss';
+@import 'blocks/popup-buy.scss';
 
 // Страницы
 @import 'pages/all-pages.scss';
