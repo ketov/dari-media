@@ -1,5 +1,5 @@
 .game{
-    padding: 46px 0 0 0;
+    padding: 46px 0 66px 0;
     .info{
         float: left;
         margin: 19px 3% 0 0;
@@ -9,6 +9,7 @@
             .buy{
                 display: table;
                 float: left;
+                margin: 0 4% 10px 0;
             }
             .video{
                 color: #fff;
@@ -16,7 +17,7 @@
                 float: left;
                 font-size: 130%;
                 line-height: 150%;
-                margin: 4px 0 0 28px;
+                margin: 4px 4% 10px 0;
                 padding: 0 0 0 77px;
                 position: relative;
                 &:hover{
@@ -50,7 +51,7 @@
                 background: #ffd571;
                 border-radius: 14px;
                 float: left;
-                margin: 6px 0 0 31px;
+                margin: 6px 4% 0 0;
                 padding: 11px 55px 10px 21px;
                 position: relative;
                 .number{
@@ -68,5 +69,54 @@
     }
     p{
         max-width: 600px;
+    }
+}
+
+@media(max-width: 1270px){
+    .game{
+        .info{
+            margin: 19px 6% 0 0;
+        }
+        .image{
+            float: left;
+            width: 30%;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width: 900px){
+    .game{
+        padding: 46px 0 130px;
+        .info{
+            width: 94%;
+        }
+        .image{
+            margin-top: 40px;
+            width: 94%;
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .game{
+        .info{
+            .row{
+                .buy, .video, .price{
+                    float: none;
+                }
+                .price{
+                    display: table;
+                }
+                .buy{
+                    margin-bottom: 21px;
+                }
+                .video{
+                    margin-bottom: 21px;
+                }
+            }
+        }
     }
 }

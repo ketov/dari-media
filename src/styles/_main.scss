@@ -1,3 +1,11 @@
+html, body {
+    min-height: 100%;
+}
+
+html{
+    position: relative;   
+}
+
 body{
     color: #ffffff;
     font-family: pfDinDisplayProRegular, Arial, Verdana, sans-serif;
@@ -76,4 +84,22 @@ p{
 
 .fixed-menu-container{
     position: relative;
+}
+
+@media(max-width: 600px){
+    h1{
+        font-size: 270%;
+    }
+}
+
+@media(max-width: 400px){
+    h1{
+        font-size: 230%;
+    }
+}
+
+@media(max-width: 300px){
+    h1{
+        font-size: 200%;
+    }
 }

@@ -1,5 +1,5 @@
 .process{
-    padding: 31px 0 14px;
+    padding: 46px 0 66px;
     h1{
         font-size: 235%;
         margin: 0 0 25px 0;
@@ -49,6 +49,54 @@
                     top: 16px;
                 }
             }
+        }
+    }
+}
+
+@media(max-width: 1000px){
+    .process{
+        .video{
+            .show-video{
+                height: 185px;
+                margin: 120px auto 0;
+            }
+        }
+    }
+}
+
+@media(max-width: 900px){
+    .process{
+        padding: 46px 0 130px;
+    }
+}
+
+@media(max-width: 790px){
+    .process{
+        .slider{
+            width: 100%;
+        }
+        .video{
+            width: 100%;
+            .show-video{
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 272px;
+                margin: 40px auto 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width: 450px){
+    .process{
+        .video{
+            .show-video{
+                height: 234px;
+            }
+        }
+        h1{
+            font-size: 200%;
         }
     }
 }

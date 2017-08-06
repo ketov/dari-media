@@ -133,3 +133,41 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .swiper-slide{
     border-radius: 18px;
 }
+
+@media(max-width: 1000px){
+    .swiper-slide .img{
+        height: 280px; 
+    }
+    .swiper-pagination {
+        top: 375px;
+    }
+    .swiper-button-next {
+        right: 10px;
+    }
+    .swiper-button-prev {
+        left: 10px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        top: 218px;
+    }
+}
+
+@media(max-width: 560px){
+    .swiper-pagination{
+        display: none;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        top: 387px;
+    }
+    .swiper-button-prev {
+        left: 47%;
+        margin-left: -32px;
+    }
+    .swiper-button-next {
+        right: 47%;
+        margin-right: -32px;
+    }
+    .swiper-container{
+        width: 100%;
+    }
+}

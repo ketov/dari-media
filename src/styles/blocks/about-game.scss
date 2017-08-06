@@ -1,5 +1,5 @@
 .about-game{
-    padding: 36px 0 0 0;
+    padding: 46px 0 66px 0;
     .info{
         float: left;
         margin: 57px 3% 0 0;
@@ -41,5 +41,59 @@
     .row{
         margin: 49px 0 0 0;
         max-width: 468px;
+    }
+}
+
+@media(max-width: 1270px){
+    .about-game{
+        .info{
+            margin: 19px 6% 0 0;
+        }
+        .image{
+            float: left;
+            width: 30%;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width: 900px){
+    .about-game{
+        padding: 46px 0 130px;
+        p{
+            max-width: 100%; 
+        }
+        .info{
+            width: 94%;
+        }
+        .image{
+            margin-top: 40px;
+            width: 94%; 
+        }
+        .row{
+            max-width: 100%; 
+        }
+    }
+}
+
+@media(max-width: 450px){ 
+    .about-game{
+        .row{
+            margin: 0;
+        }
+    }
+    .about-game__col{
+        margin-top: 36px;
+        width: 100%; 
+        .container{
+            margin: 0 auto;
+        }
+        &--3{
+            .container{
+                float: none;
+            }
+        }
     }
 }
