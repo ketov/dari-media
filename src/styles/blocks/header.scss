@@ -4,6 +4,9 @@ header{
         float: left;
         width: 28%;
     }
+    .in-wrapper{
+        position: relative;
+    }
     .logo{
         display: table;
     }
@@ -42,6 +45,121 @@ header{
         }
         a.whatsapp{
             padding-top: 3px;
+        }
+    }
+}
+
+#hamburger{
+    cursor: pointer;
+    display: none;
+    height: 22px;
+    padding: 7px;
+    position: absolute;
+    right: -7px;
+    top: 4px;
+    width: 27px;
+    &:hover .block{
+        background: #ffd571;
+    }
+    .block{
+        background: #fff;
+        opacity: 1;
+        position: absolute;
+        transition: 0.2s;
+        height: 2px;
+        width: 27px;
+        &--2{
+            top: 15px;
+        }
+        &--3{
+            top: 23px;
+        }
+    }
+}
+
+#hamburger.active{
+    .block{
+        &--1{
+            top: 17px;
+            transform: rotate(45deg);
+        }
+        &--2{
+            opacity: 0;
+        }
+        &--3{
+            top: 17px;
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+@media(max-width: 1100px){
+    header{
+        .contacts, .logo-container{
+            width: 35%;
+        }
+        nav{
+            width: 30%;
+        }
+    }
+}
+
+@media(min-width: 851px){
+    header{
+        nav, .contacts{
+            display: block !important;
+        }
+    }
+}
+
+@media(max-width: 1000px){
+    header{
+        .logo-container{
+            width: auto;
+        }
+        .contacts{
+            float: right;
+        }
+        nav{
+            margin: 0 0 0 6%;
+            text-align: left;
+            width: 40%;
+        }
+    }
+}
+
+@media(max-width: 850px){
+    #hamburger{
+        display: block;
+    }
+    header{
+        .logo-container{
+            float: none;
+        }
+        nav{
+            display: none;
+            float: none;
+            margin: 0;
+            width: 100%;
+            a{
+                border-bottom: 1px solid #fff;
+                display: block;
+                padding-left: 0;
+            }
+        }
+        .contacts{
+            display: none;
+            float: none;
+            padding: 12px 0 0;
+            width: 100%;
+            .whatsapp{
+                display: block;
+                float: none;
+            }
+            .phone{
+                display: block;
+                float: none;
+            }
         }
     }
 }

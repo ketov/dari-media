@@ -1,5 +1,7 @@
 $(document).ready(function () {
     $('.delivery-payment').on('click', function () {
+        var top = $(window).scrollTop() + 50;
+        $('.popup-delivery-payment').css({'top': top});
         $('#black-bg').stop(true, true).fadeIn(400);
         setTimeout(function () {
             $('.popup-delivery-payment').fadeIn(400);

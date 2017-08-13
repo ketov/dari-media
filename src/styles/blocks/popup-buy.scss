@@ -5,10 +5,8 @@
     display: none;
     left: 50%;
     margin-left: -385px;
-    margin-top:-290px;
-    position: fixed;
-    top: 50%;
-    z-index: 2;
+    position: absolute;
+    z-index: 13;
     padding: 33px 39px 50px 40px;
     width: 691px;
     h3{
@@ -97,4 +95,17 @@
     &--2{
         transform: rotate(-45deg);
     }
+}
+
+@media(max-width: 850px){
+    .popup-buy{
+        left: 5%;
+        margin-left: 0;
+        padding: 35px 4% 35px 4%;
+        width: 82%;
+        input{
+            width: 90%;
+        }
+    }
+
 }
