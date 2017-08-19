@@ -86,3 +86,11 @@ footer{
         }
     }
 }
+
+@media(max-width: 600px){
+    footer{
+        .mail, .delivery-payment{
+            display: none;
+        }
+    }
+}

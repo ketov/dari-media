@@ -107,5 +107,32 @@
             width: 90%;
         }
     }
+}
 
+@media(max-width: 600px){
+    .popup-buy{
+        h3{
+            font-size: 195%;
+            text-align: left;
+        }
+        #close-popup-buy{
+            top: 38px;
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .popup-buy{
+        input{
+            width: 85%;
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .popup-buy{
+        input{
+            width: 80%;
+        }
+    }
 }

@@ -153,19 +153,19 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 }
 
 @media(max-width: 560px){
-    .swiper-pagination{
-        display: none;
-    }
+
     .swiper-button-next, .swiper-button-prev {
         top: 387px;
     }
     .swiper-button-prev {
-        left: 47%;
-        margin-left: -32px;
+        left: 4%;
+        top: 203px;
+        position: absolute;
     }
     .swiper-button-next {
-        right: 47%;
-        margin-right: -32px;
+        right: 4%;
+        top: 203px;
+        position: absolute;
     }
     .swiper-container{
         width: 100%;
