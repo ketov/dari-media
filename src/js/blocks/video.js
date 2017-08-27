@@ -13,6 +13,15 @@ $(document).ready(function () {
         }, 480);
     });*/
     
+    function videoHeight(){
+        var width = $('#video').width();
+        $('#video').css({'height':width*9/16});
+    }
+    videoHeight();
+    $(window).resize(function(){
+        videoHeight();
+    });
+    
     
      $('#black-bg').click(function (event) {
         if ($(event.target).closest("#video").length)
